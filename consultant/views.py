@@ -19,3 +19,7 @@ def service(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+
+def team(request):
+    return render(request, 'team.html')
