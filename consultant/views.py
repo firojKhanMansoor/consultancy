@@ -23,3 +23,7 @@ def contact(request):
 
 def team(request):
     return render(request, 'team.html')
+
+
+def quote(request):
+    return render(request, 'quote.html')
